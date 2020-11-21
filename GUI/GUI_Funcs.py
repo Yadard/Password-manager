@@ -1,17 +1,14 @@
-from API import Core
-from MainUI import Entry
+import sys
+
 from PyQt5.QtCore import pyqtSlot, QEvent
-from win32clipboard import SetClipboardText, CloseClipboard, OpenClipboard, EmptyClipboard
+
+from MainUI import Entry
+
+sys.path.insert(1, 'C:\\Dev\\Password-manager\\API')
+import Core
 
 
 @pyqtSlot(QEvent)
 def authenticating(username: Entry, senha: Entry):
     print(username.text())
     print(senha.text())
-
-
-def set_clipboard(str_target: str):
-    OpenClipboard()
-    EmptyClipboard()
-    SetClipboardText(str_target)
-    CloseClipboard()

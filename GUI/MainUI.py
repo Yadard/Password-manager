@@ -68,7 +68,7 @@ class Main_UI(object):
         self.SM_menu = QtWidgets.QLabel(self.SM_menu_frame)
         self.SM_menu.setGeometry(QtCore.QRect(5, 5, 40, 40))
         self.SM_menu.setText("")
-        self.SM_menu.setPixmap(QtGui.QPixmap("../Media/menu-icon50x50.png"))
+        self.SM_menu.setPixmap(QtGui.QPixmap("Media/menu-icon50x50.png"))
         self.SM_menu.setScaledContents(True)
         self.SM_menu.setAlignment(QtCore.Qt.AlignCenter)
         self.SM_menu.setObjectName("SM_menu")
@@ -76,7 +76,7 @@ class Main_UI(object):
         self.SM_menu_profile = QtWidgets.QFrame(self.side_menu)
         self.SM_menu_profile.setMinimumSize(QtCore.QSize(50, 50))
         self.SM_menu_profile.setMaximumSize(QtCore.QSize(50, 50))
-        self.SM_menu_profile.setStyleSheet("background-image: url(../Media/menu-icon.png);\n"
+        self.SM_menu_profile.setStyleSheet("background-image: url(Media/menu-icon.png);\n"
                                            "background-repeat: none\n"
                                            "")
         self.SM_menu_profile.setFrameShape(QtWidgets.QFrame.NoFrame)
@@ -85,7 +85,7 @@ class Main_UI(object):
         self.SM_profile = QtWidgets.QLabel(self.SM_menu_profile)
         self.SM_profile.setGeometry(QtCore.QRect(2, 2, 45, 45))
         self.SM_profile.setText("")
-        self.SM_profile.setPixmap(QtGui.QPixmap("../Media/profile50x50.png"))
+        self.SM_profile.setPixmap(QtGui.QPixmap("Media/profile50x50.png"))
         self.SM_profile.setScaledContents(True)
         self.SM_profile.setAlignment(QtCore.Qt.AlignCenter)
         self.SM_profile.setObjectName("SM_profile")
@@ -104,7 +104,7 @@ class Main_UI(object):
         self.SM_setting = QtWidgets.QLabel(self.SM_menu_settings)
         self.SM_setting.setGeometry(QtCore.QRect(5, 5, 40, 40))
         self.SM_setting.setText("")
-        self.SM_setting.setPixmap(QtGui.QPixmap("../Media/Settings50x50.png"))
+        self.SM_setting.setPixmap(QtGui.QPixmap("Media/Settings50x50.png"))
         self.SM_setting.setScaledContents(True)
         self.SM_setting.setAlignment(QtCore.Qt.AlignCenter)
         self.SM_setting.setObjectName("SM_setting")
@@ -188,11 +188,11 @@ class Main_UI(object):
         self.PAI_avatar.setStyleSheet("QLabel{\n"
                                       "border-radius: 100px;\n"
                                       "border: 4px solid rgb(65, 71, 121);\n"
-                                      "background-image: url(../Media/Default_avatar.png);\n"
+                                      "background-image: url(Media/Default_avatar.png);\n"
                                       "background-repeat: none;\n"
                                       "}\n"
                                       "QLabel::hover{\n"
-                                      "background-image: url(../Media/Default_avatar_with_camera.png);\n"
+                                      "background-image: url(Media/Default_avatar_with_camera.png);\n"
                                       "}\n"
                                       "")
         self.PAI_avatar.setText("")

@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="Profile_Picture">
+    <file>Default_avatar.png</file>
+    <file>Default_avatar_with_camera.png</file>
+    <file>Settings50x50.png</file>
+    <file>profile50x50.png</file>
+    <file>menu-icon50x50.png</file>
+    <file>menu-icon.png</file>
+    <file>117902633_3248627061892115_3910947985199243398_n.jpg</file>
+  </qresource>
+</RCC>

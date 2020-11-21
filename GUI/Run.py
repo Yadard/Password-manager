@@ -11,7 +11,8 @@ class MainApp(QMainWindow):
         QMainWindow.__init__(self)
         self.MainUI = Main_UI()
         self.MainUI.setupUi(self)
-        self.MainUI.PF_password_submit.pressed.connect(lambda: authenticating(self.MainUI.PF_username, self.MainUI.PF_password))
+        self.MainUI.PF_password_submit.pressed.connect(
+            lambda: authenticating(self.MainUI.PF_username, self.MainUI.PF_password))
         self.show()
 
 
